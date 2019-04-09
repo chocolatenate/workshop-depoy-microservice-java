@@ -1,4 +1,4 @@
-[My Docker](https://hub.docker.com/u/chocolatenate)
+[My Docker Hub](https://hub.docker.com/u/chocolatenate)
 
 [![Build Status](https://travis-ci.com/up1/workshop-depoy-microservice-java.svg?branch=master)](https://travis-ci.com/up1/workshop-depoy-microservice-java)
 
@@ -6,7 +6,7 @@
 
 ## Step 1 :: Clone project
 ```
-$git clone https://github.com/up1/workshop-depoy-microservice-java.git
+$git clone https://github.com/chocolatenate/workshop-depoy-microservice-java.git
 $cd workshop-depoy-microservice-java
 #ls
 
@@ -32,11 +32,11 @@ $docker image ls
 $docker login
 Login Succeeded
 
-$docker image tag catalog_service:1.0 <username>/catalog_service:1.0
-$docker image push <username>/catalog_service:1.0
+$docker image tag catalog_service:1.0 chocolatenate/catalog_service:1.0
+$docker image push chocolatenate/catalog_service:1.0
 
-$docker image tag product_service:1.0 <username>/product_service:1.0
-$docker image push <username>/product_service:1.0
+$docker image tag product_service:1.0 chocolatenate/product_service:1.0
+$docker image push chocolatenate/product_service:1.0
 ```
 
 ## Step 5 :: Deploy container with Docker compose
